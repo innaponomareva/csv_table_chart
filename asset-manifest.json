@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/innaponomareva/csv_table_chart.git/static/css/main.ca4c4fff.css",
+    "main.css": "/innaponomareva/csv_table_chart.git/static/css/main.f4523a6a.css",
     "main.js": "/innaponomareva/csv_table_chart.git/static/js/main.5ab09565.js",
     "index.html": "/innaponomareva/csv_table_chart.git/index.html",
-    "main.ca4c4fff.css.map": "/innaponomareva/csv_table_chart.git/static/css/main.ca4c4fff.css.map",
+    "main.f4523a6a.css.map": "/innaponomareva/csv_table_chart.git/static/css/main.f4523a6a.css.map",
     "main.5ab09565.js.map": "/innaponomareva/csv_table_chart.git/static/js/main.5ab09565.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca4c4fff.css",
+    "static/css/main.f4523a6a.css",
     "static/js/main.5ab09565.js"
   ]
 }
