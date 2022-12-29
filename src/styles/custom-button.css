@@ -1,0 +1,26 @@
+.custom-btn-container {
+  position: relative;
+}
+.icon-btn {
+  padding: 0.2rem;
+}
+.trash-icon-btn:hover {
+  color: red;
+}
+.plus-icon-btn:hover {
+  color: #0095ff;
+}
+.custom-tooltip {
+  padding: 0.4rem;
+  background-color: #212529;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 500;
+  position: absolute;
+  top: 2rem;
+  z-index: 10;
+}
+.btn:focus {
+  border-color: transparent !important;
+}

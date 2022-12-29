@@ -1,0 +1,45 @@
+th,
+td {
+  padding: 0.6rem !important;
+}
+
+.form-control-th {
+  padding: 0;
+  font-weight: 600;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  border-radius: 0;
+}
+
+.form-control-cell {
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  height: 9rem;
+}
+
+.form-control-th:focus,
+.form-control-cell:focus {
+  background-color: transparent;
+}
+
+.form-control-th:disabled,
+.form-control-cell:disabled {
+  background-color: transparent;
+}
+
+.active-filter {
+  background-color: hsla(205, 82%, 78%, 0.4) !important;
+}
+
+td .btn-box {
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
