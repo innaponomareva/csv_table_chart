@@ -10,7 +10,7 @@ Application for processing and formating the attached CSV file. The task is divi
 - Render CSV data as an HTML table
 - Add new records using the same schema
 - Edit existing records
-- Visualize records as a chart (bar or pie)
+- Visualize records as a chart
 - Export all data back to CSV using the same schema
 
 ## 🧩 Tech Stack
