@@ -1,19 +1,23 @@
-## 1. Task
+# CSV Table Chart
 
 Application for processing and formating the attached CSV file. The task is divided into the following subtasks.
 
-1. Import data from the attached CSV file
-2. Render the CSV data as an HTML table
-3. Create new data records using the same schema
-4. Edit existing data records
-5. Percentage representation of data records as a chart (bar or pie chart)
-6. Export all data as a CSV file using the same schema
+👉 **Live Demo**: https://innaponomareva.github.io/csv_table_chart/
 
-## 2. Stack
+## 🚀 Features
 
-1. React
-2. TypeScript
-3. Bootstrap
-4. Chart.js
-5. clsx
-6. React Icons
+- Import data from a CSV file (Artikel.csv — included in the repository root)
+- Render CSV data as an HTML table
+- Add new records using the same schema
+- Edit existing records
+- Visualize records as a chart (bar or pie)
+- Export all data back to CSV using the same schema
+
+## 🧩 Tech Stack
+
+- React
+- TypeScript
+- Bootstrap
+- Chart.js
+- clsx
+- React Icons
