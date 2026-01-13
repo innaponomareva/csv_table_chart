@@ -1,12 +1,12 @@
 # CSV Table Chart
 
-Application for processing and formating the attached CSV file. The task is divided into the following subtasks.
+Application for processing and formating the attached CSV file **Artikel.csv** (included in the repo root).
 
 👉 **Live Demo**: https://innaponomareva.github.io/csv_table_chart/
 
 ## 🚀 Features
 
-- Import data from a CSV file (Artikel.csv — included in the repository root)
+- Import data from the CSV file **Artikel.csv**
 - Render CSV data as an HTML table
 - Add new records using the same schema
 - Edit existing records
