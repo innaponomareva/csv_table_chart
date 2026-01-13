@@ -6,7 +6,8 @@ td {
 .form-control-th {
   padding: 0;
   font-weight: 600;
-  background-color: transparent;
+  background-color: transparent !important;
+  border-color: transparent !important;
   resize: none;
   border: none;
   border-radius: 0;
@@ -16,10 +17,11 @@ td {
   padding: 0;
   font-size: 0.9rem;
   line-height: 1.5rem;
-  background-color: transparent;
+  background-color: transparent !important;
   resize: none;
   border: none;
   border-radius: 0;
+  border-color: transparent !important;
   height: 9rem;
 }
 

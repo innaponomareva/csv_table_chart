@@ -1,10 +1,10 @@
-import { Chart, registerables } from "chart.js";
-import { useContext, useEffect } from "react";
+import { Chart, registerables } from 'chart.js';
+import { useContext, useEffect } from 'react';
 import {
   DataContext,
   DataContextInterface,
-} from "../../context/data/dataContext";
-import { ICategoryItem } from "../../models/ICategoryItem";
+} from '../../context/data/dataContext';
+import { ICategoryItem } from '../../models/ICategoryItem';
 
 interface BarChartProps {
   category: string;
@@ -28,7 +28,7 @@ const BarChart: React.FC<BarChartProps> = ({ category, categoryItems }) => {
 export default BarChart;
 
 const getChart = (chartArray: ICategoryItem[], category: string) => {
-  const chartElem = document.getElementById("myChart") as HTMLCanvasElement;
+  const chartElem = document.getElementById('myChart') as HTMLCanvasElement;
   Chart.register(...registerables);
 
   const lables = chartArray.map((_, index) => index + 1);
@@ -37,7 +37,7 @@ const getChart = (chartArray: ICategoryItem[], category: string) => {
   });
 
   return new Chart(chartElem, {
-    type: "bar",
+    type: 'bar',
     data: {
       labels: [...lables],
       datasets: [

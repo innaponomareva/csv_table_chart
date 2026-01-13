@@ -17,17 +17,19 @@ const ChartDropdown: React.FC<ChartDropdownProps> = ({
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        {category !== "" ? category : categoryList[0]}
+        {category !== '' ? category : categoryList[0]}
       </button>
 
       <ul className="dropdown-menu">
-        {categoryList.map((category, index) => (
-          <li
-            key={index}
-            className="dropdown-item"
-            onClick={() => onClickHandler(category)}
-          >
-            {category}
+        {categoryList.map((c) => (
+          <li key={c}>
+            <button
+              type="button"
+              className="dropdown-item"
+              onClick={() => onClickHandler(c)}
+            >
+              {c}
+            </button>
           </li>
         ))}
       </ul>
